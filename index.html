@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Home :: Art And Gallery</title>
+
+    <!--METAS-->
+    <meta name="Description" content="A wonderful Art and Gallery site built for jQuery and JavaScript. Visit us in store or online">
+    <meta name="Keywords" content="trending, paintings and latest designs ">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--RESET-->
+    <link rel="stylesheet" href="css/reset.css">
+
+    <!--SITE STYLES -->
+    <link rel="stylesheet" href="css/art-styles.css">
+     <!-- FAVICON -->
+     <link rel="icon" href="favicon.ico">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+
+</head>
+
+<body>
+    <!-- start header -->
+    <div class="navbar fr">
+        <a class="active" href="#">Home</a>
+        <a href="#">Collections</a>
+        <a href="#">Category</a>
+        <a href="#">Help</a>
+    </div>
+    <header id="mainHeader" class="hero">
+            
+        <button id="dark" class="dark-button">Dark <i class="fa-solid fa-moon"></i></button>
+                <button id="light" class="light-button" hidden="hidden">Light <i class="fa-solid fa-sun"></i></button>
+        <button class="mode" onclick="myFunction()">Toggle dark mode</button>
+
+        <h1>Art And Gallery</h1>
+        <p>You imagine. We will create.</p>
+    </header>
+    <main id="container" class="flex-column justify-center">       
+    
+        <!-- ABOUT -->
+        <section id="about">
+        <div class="row gap space">
+            <section class="col33">
+        <h2>We are art</h2>
+        <p>We exist so you can have the art you love. This means giving you easy access to incredible art images and top-notch craftsmanship. Because when you find art you love, you will love your space more... and that is what it is all about.</p>
+        </section>
+    </div>
+       <div class="row gap space">
+       <section class="col13 centered">
+       <img src="images/painting.jpg" alt="painting" class="responsive shadowed border">
+           </section>
+       </div>
+        <div class="row gap space">
+            <section class="col33 centered">
+        <button id="read" class="shadowed">Read More</button>
+    
+    </section>
+</div>
+        <div id="para">
+        <p> We work with passion to bring you the world's largest art collection. Whatever your interest, your décor style, your inspiration. we're sure to have that piece you can't live without.</p>
+        </div>
+            </section>
+        
+
+
+        <section id="subjects">
+            <h2>Our Most Popular Subjects</h2>
+            <div class="row gap20 space centered">
+                <section class="col16">
+                    <img src="images/art1.jpg" alt="" class="responsive shadowed zoom">
+                    <button id="btn1" class="rdBtn">Read More</button>
+                    <p class="hidden para1">crayon painting</p>
+                </section>
+                <section class="col16">
+                    <img src="images/art2.jpg" alt="canvas" class="responsive shadowed zoom">
+                    <button id="btn2" class="rdBtn">Read More</button>
+                    <p class="para2">Giraffe painting</p>
+                </section>
+                <section class="col16">
+                    <img src="images/art3.jpg" alt="sketch" class="responsive shadowed zoom">
+                    <button  id="btn3" class="rdBtn">Read More</button>
+                    <p class="hidden para3">hello</p>
+                </section>
+                <section class="col16">
+                    <img src="images/art4.jpg" alt="flowers"  class="responsive shadowed zoom">
+                <button id="btn4" class="rdBtn">Read More</button>
+                    <p class="hidden para4">hello</p>
+                </section>
+                <section class="col16">
+                    <img src="images/art5.jpg" alt="abstract" class="responsive shadowed zoom">
+                    <button id="btn5" class="rdBtn">Read More</button>
+                    <p class="para5"> Pencil color painting</p>
+                </section>
+                <section class="col16">
+                    <img src="images/art6.jpg" alt="oilPainting" class="responsive shadowed zoom">
+                <button id="btn6" class="rdBtn">Read More</button>
+                <p class="para6">Water painting</p>
+                </section>
+            </div>
+        </section>
+
+        <section id="promise">
+            <h2>Our Promise</h2>
+            <div class="row gap20 space">
+                <section class="col14">
+                    <!-- <h3>Everyday Low Prices</h3> -->
+                    <h3>Low Prices</h3>
+                    <p>No flashy sales or promo code hunting here! We offer the best prices, every single day.
+                    </p>
+                </section>
+                <section class="col14">
+                    <h3>Shipping Policy</h3>
+                    <p>It is simple: we will cover the shipping. No minimums, always and forever!</p>
+                </section>
+                <section class="col14">
+                    <h3>100% Guarantee</h3>
+                    <p>We want you to love your art. If you do not, we will happily issue you a full refund—no questions asked.</p>
+                </section>
+                <section class="col14">
+                    <h3>Handcrafted</h3>
+                    <p>Your art is professionally handcrafted by our team in Ohio with museum-quality materials.</p>
+                </section>
+            </div>
+        </section>
+
+
+    <section id="section4">
+        <div class="row gap20 space">
+            <section class="col12">
+                <h2>Incredible art every time</h2>
+            <p>We work with passion to bring you the world's largest art collection. Whatever your interest, your décor style, your inspiration we're sure to have that piece you can't live without.
+            </p>
+            
+            <div class="row gap20 space">
+               <section class="col13">
+                <img src="images/colorPainting.jpg" alt="colorPainting" class="responsive shadowed border">
+                </section>
+            </div>
+            
+            <div class="row gap20 space">
+            <section class="centered col12">
+            <button id="shop">Shop more</button>
+            </section>
+        </div>
+            <p id="shopPara">We believe art is dynamic, personal and connected to now, and the experience of buying and living with it should be too. From the moment you browse our site to the day your art is delivered, our team has one goal in mind: to delight you every step of the way.
+            </p>
+        </section>
+            <section id="portrait" class="col12 centered">
+                <img src="images/portrait.jpeg" alt="abstract" class="responsive  zoom">
+                <button id="portraitBtn" class="rdBtn">Read More</button>
+            </section>
+        </div>
+    </section>            
+
+
+        
+        <div class="row gap20 space">
+            <section class="col33">
+        <p class="flip">Terms and Conditions</p>
+        <div class="panel">
+            <p>These terms and conditions, together with the Privacy Policy, constitute the entire agreement between you and Art and gallery in relation to your use of this website, and supersede all previous agreements in respect of your use of this website.
+            </p>
+            </div>
+            </section>
+    </div>
+
+    <div class="row gap20 space centered">
+    <section class="col33">
+        <button class="btn2">Fade in</button>
+        <button class="btn1">Fade out</button>
+    </section>
+    </div>
+
+    </main>
+
+
+
+
+
+    <!--     FOOTER-->
+    <footer id="Footer2">
+        <p>&copy;2030 All Rights Reserved. </p>
+        <!--        SOCIAL-->
+        <section id="social">
+            <a href="#" target="_blank"><img src="images/icon-facebook.png" alt="facebook"></a><a href="#" target="_blank"><img src="images/icon-instagram.png" alt="instagram"></a><a href="#" target="_blank"><img src="images/icon-twitter.png" alt="twitter"></a><a href="#" target="_blank"><img src="images/icon-youtube.png" alt="youtube"></a>
+        </section>
+    </footer>
+
+  
+    <script src="jquery-3.1.1.js"></script>
+    <script src="mainScript.js"></script>
+</body>
+
+</html>
+
